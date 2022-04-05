@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="quiz-wrapper">
+        <div id="quiz">
+            <div class="question"></div>
+            <div class="options-wrapper">
+                <input type="radio" name="ques" id="opt1" value="a" class="options">
+                <label for="opt1" id="question1"></label>
+            </div>
+            <div class="options-wrapper">
+                <input type="radio" name="ques" id="opt2" value="b" class="options">
+                <label for="opt2" id="question2"></label>
+            </div>
+            <div class="options-wrapper">
+                <input type="radio" name="ques" id="opt3" value="c" class="options">
+                <label for="opt3" id="question3"></label>
+            </div>
+            <div class="options-wrapper">
+                <input type="radio" name="ques" id="opt4" value="d" class="options" />
+                <label for="opt4" id="question4"></label>
+            </div>
+            <div id="btn-sub-ques">
+                <button id="submit" onclick="submitQuiz()">Submit</button>
+            </div>
+            <div id="index">Question <span id="questionIndex"></span></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
