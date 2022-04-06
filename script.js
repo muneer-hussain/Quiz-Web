@@ -123,7 +123,7 @@ function indexNum() {
     const totalQuestions = questions.length - 1;
     let slash = "/";
     let indexNumber = index + 1;
-    queIndex.innerText = totalQuestions + slash + indexNumber;
+    queIndex.innerText = indexNumber + slash + totalQuestions;
 }
 indexNum();
 
