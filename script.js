@@ -51,7 +51,7 @@ const questions = [{
         'correct': "a",
     },
     {
-        'ques': "What is the full form of JSON",
+        'ques': "What is the full form of JSON ?",
         'a': 'JavaScript Object Number',
         'b': 'JavaScript Output Number',
         'c': 'JavaScript Object Notation',
