@@ -43,7 +43,7 @@ const questions = [{
         'correct': "c",
     },
     {
-        'ques': "In which year javascript invented",
+        'ques': "In which year javascript invented ?",
         'a': "1995",
         'b': "1990",
         'c': "1999",
